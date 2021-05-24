@@ -1,0 +1,60 @@
+.container{
+    margin: 3rem auto;
+    background-color: rgb(204, 219, 233);
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: max-content 1fr 1fr min-content;
+    grid-template-rows: repeat(2,minmax(150px,max-content));
+    
+}
+
+
+.item{
+    font-size: 2rem;
+   
+}
+
+.item--1{
+    background-color: rgb(91, 154, 173);
+    grid-row: 2/3;
+    grid-column: 2/3;
+ }
+
+.item--2{
+   background-color: rgb(104, 91, 173);
+   grid-row: 1/2;
+   grid-column: 1/2;
+   z-index: 10;
+}
+
+.item--3{
+    background-color: rgb(225, 0, 255);
+   
+    
+ }
+
+ .item--4{
+    background-color: rgb(0, 255, 55);
+   
+    
+ }
+
+ .item--5{
+    background-color: rgb(255, 81, 0);
+   
+ }
+
+ .item--6{
+    background-color: rgb(255, 0, 85);
+   
+ }
+
+ .item--7{
+    background-color: rgb(78, 50, 60);
+   
+ }
+
+ .item--8{
+    background-color: rgb(0, 255, 255);
+   
+ }

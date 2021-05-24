@@ -1,0 +1,56 @@
+.container{
+    background-color: aliceblue;;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-rows: repeat(2,minmax(100px,150px)); /*je definis la longueur et la largeur minimale d'une ligne*/
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); /*on definit automatiquement l'occupation du viewport entre les valeurs de minmax*/
+    grid-auto-rows: 150px; /*definition de hautuer par defaut d'une ligne*/
+}
+
+.item{
+    font-size: 2rem;
+   
+}
+
+.item--1{
+    background-color: rgb(91, 154, 173);
+    
+ }
+
+.item--2{
+   background-color: rgb(104, 91, 173);
+  
+}
+
+.item--3{
+    background-color: rgb(225, 0, 255);
+   
+    
+ }
+
+ .item--4{
+    background-color: rgb(85, 211, 113);
+   
+    
+ }
+
+ .item--5{
+    background-color: rgb(255, 81, 0);
+   
+ }
+
+ .item--6{
+    background-color: rgb(255, 0, 85);
+   
+ }
+
+ .item--7{
+    background-color: rgb(78, 50, 60);
+   
+ }
+
+ .item--8{
+    background-color: rgb(0, 255, 255);
+   
+ }
